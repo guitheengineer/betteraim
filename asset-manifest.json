@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/betteraim/static/css/main.9d238f3f.chunk.css",
+    "main.js": "/betteraim/static/js/main.7f6c68ac.chunk.js",
+    "main.js.map": "/betteraim/static/js/main.7f6c68ac.chunk.js.map",
+    "runtime-main.js": "/betteraim/static/js/runtime-main.8c16c0c2.js",
+    "runtime-main.js.map": "/betteraim/static/js/runtime-main.8c16c0c2.js.map",
+    "static/js/2.45300a60.chunk.js": "/betteraim/static/js/2.45300a60.chunk.js",
+    "static/js/2.45300a60.chunk.js.map": "/betteraim/static/js/2.45300a60.chunk.js.map",
+    "index.html": "/betteraim/index.html",
+    "static/css/main.9d238f3f.chunk.css.map": "/betteraim/static/css/main.9d238f3f.chunk.css.map",
+    "static/js/2.45300a60.chunk.js.LICENSE.txt": "/betteraim/static/js/2.45300a60.chunk.js.LICENSE.txt",
+    "static/media/bubbles-background.60773dd3.png": "/betteraim/static/media/bubbles-background.60773dd3.png",
+    "static/media/fullscreen.cba4b444.svg": "/betteraim/static/media/fullscreen.cba4b444.svg",
+    "static/media/hand.b54fe62d.svg": "/betteraim/static/media/hand.b54fe62d.svg",
+    "static/media/pause.336952b5.svg": "/betteraim/static/media/pause.336952b5.svg",
+    "static/media/pauseicon.be711a01.svg": "/betteraim/static/media/pauseicon.be711a01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c16c0c2.js",
+    "static/js/2.45300a60.chunk.js",
+    "static/css/main.9d238f3f.chunk.css",
+    "static/js/main.7f6c68ac.chunk.js"
+  ]
+}
