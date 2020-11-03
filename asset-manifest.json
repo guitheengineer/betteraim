@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/betteraim/static/css/main.9d238f3f.chunk.css",
-    "main.js": "/betteraim/static/js/main.7f6c68ac.chunk.js",
-    "main.js.map": "/betteraim/static/js/main.7f6c68ac.chunk.js.map",
+    "main.js": "/betteraim/static/js/main.97d2922d.chunk.js",
+    "main.js.map": "/betteraim/static/js/main.97d2922d.chunk.js.map",
     "runtime-main.js": "/betteraim/static/js/runtime-main.8c16c0c2.js",
     "runtime-main.js.map": "/betteraim/static/js/runtime-main.8c16c0c2.js.map",
     "static/js/2.45300a60.chunk.js": "/betteraim/static/js/2.45300a60.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.8c16c0c2.js",
     "static/js/2.45300a60.chunk.js",
     "static/css/main.9d238f3f.chunk.css",
-    "static/js/main.7f6c68ac.chunk.js"
+    "static/js/main.97d2922d.chunk.js"
   ]
 }
