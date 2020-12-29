@@ -1,0 +1,16 @@
+.show-level {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  letter-spacing: 0.1em;
+  font: 12px Red Hat Text;
+  pointer-events: none;
+  &__level {
+    color: #6a6a6a;
+  }
+  &__phase {
+    color: #9f9f9f;
+    margin-left: 2px;
+    font-weight: 500;
+  }
+}

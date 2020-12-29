@@ -1,0 +1,28 @@
+.help-icon {
+  position: fixed;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  @media (max-width: 500px) {
+    margin: 10px 10px;
+  }
+  margin: 30px 35px;
+
+  @media (max-width: 420px) {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+  font-size: 20px;
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  border-radius: 50%;
+  font-family: Play;
+  color: white;
+  user-select: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #3f3f3f;
+}

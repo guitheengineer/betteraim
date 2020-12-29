@@ -1,0 +1,23 @@
+.bubble-scheme {
+  &__bubbles {
+    background-color: #ff2323;
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 99999999;
+  }
+}
+
+@keyframes bubblesAnimation {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}

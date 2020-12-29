@@ -1,0 +1,24 @@
+.time-bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 8px 8px 0px 0px;
+  height: 3px;
+  background-color: #616161;
+  width: 100%;
+  &--reached {
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+    height: inherit;
+    background-color: #ff2323;
+  }
+
+  @keyframes fill {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+}

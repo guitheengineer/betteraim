@@ -1,0 +1,48 @@
+.handle-situation {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  &__title {
+    font-family: Play;
+    font-size: 50px;
+    text-align: center;
+    color: #cbcbcb;
+  }
+  &__button-container {
+    margin-top: 20px;
+  }
+  &__button {
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    font-family: Red Hat Text;
+    font-size: 19px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    border: 0;
+    width: 148px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__button-img {
+    margin-left: -6px;
+  }
+  &__button-text {
+    margin-left: 9px;
+    font-weight: 400;
+  }
+  &__level {
+    font-size: 30px;
+    &--lvl {
+      color: #7e7e7e;
+    }
+    &--number {
+      margin-left: 10px;
+      color: #cbcbcb;
+    }
+  }
+}
