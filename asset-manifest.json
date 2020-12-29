@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/betteraim/static/css/main.9d238f3f.chunk.css",
-    "main.js": "/betteraim/static/js/main.97d2922d.chunk.js",
-    "main.js.map": "/betteraim/static/js/main.97d2922d.chunk.js.map",
-    "runtime-main.js": "/betteraim/static/js/runtime-main.8c16c0c2.js",
-    "runtime-main.js.map": "/betteraim/static/js/runtime-main.8c16c0c2.js.map",
-    "static/js/2.45300a60.chunk.js": "/betteraim/static/js/2.45300a60.chunk.js",
-    "static/js/2.45300a60.chunk.js.map": "/betteraim/static/js/2.45300a60.chunk.js.map",
-    "index.html": "/betteraim/index.html",
-    "static/css/main.9d238f3f.chunk.css.map": "/betteraim/static/css/main.9d238f3f.chunk.css.map",
-    "static/js/2.45300a60.chunk.js.LICENSE.txt": "/betteraim/static/js/2.45300a60.chunk.js.LICENSE.txt",
-    "static/media/bubbles-background.60773dd3.png": "/betteraim/static/media/bubbles-background.60773dd3.png",
-    "static/media/fullscreen.cba4b444.svg": "/betteraim/static/media/fullscreen.cba4b444.svg",
-    "static/media/hand.b54fe62d.svg": "/betteraim/static/media/hand.b54fe62d.svg",
-    "static/media/pause.336952b5.svg": "/betteraim/static/media/pause.336952b5.svg",
-    "static/media/pauseicon.be711a01.svg": "/betteraim/static/media/pauseicon.be711a01.svg"
+    "main.css": "/gsdeveloper.github.io/betteraim/static/css/main.1dd539eb.chunk.css",
+    "main.js": "/gsdeveloper.github.io/betteraim/static/js/main.da66868d.chunk.js",
+    "main.js.map": "/gsdeveloper.github.io/betteraim/static/js/main.da66868d.chunk.js.map",
+    "runtime-main.js": "/gsdeveloper.github.io/betteraim/static/js/runtime-main.0398882a.js",
+    "runtime-main.js.map": "/gsdeveloper.github.io/betteraim/static/js/runtime-main.0398882a.js.map",
+    "static/js/2.78353174.chunk.js": "/gsdeveloper.github.io/betteraim/static/js/2.78353174.chunk.js",
+    "static/js/2.78353174.chunk.js.map": "/gsdeveloper.github.io/betteraim/static/js/2.78353174.chunk.js.map",
+    "static/js/3.76646cf7.chunk.js": "/gsdeveloper.github.io/betteraim/static/js/3.76646cf7.chunk.js",
+    "static/js/3.76646cf7.chunk.js.map": "/gsdeveloper.github.io/betteraim/static/js/3.76646cf7.chunk.js.map",
+    "index.html": "/gsdeveloper.github.io/betteraim/index.html",
+    "static/css/main.1dd539eb.chunk.css.map": "/gsdeveloper.github.io/betteraim/static/css/main.1dd539eb.chunk.css.map",
+    "static/js/2.78353174.chunk.js.LICENSE.txt": "/gsdeveloper.github.io/betteraim/static/js/2.78353174.chunk.js.LICENSE.txt",
+    "static/media/bubbles-background.60773dd3.png": "/gsdeveloper.github.io/betteraim/static/media/bubbles-background.60773dd3.png",
+    "static/media/fullscreen.e8be9d1f.svg": "/gsdeveloper.github.io/betteraim/static/media/fullscreen.e8be9d1f.svg",
+    "static/media/hand.92dbf90e.svg": "/gsdeveloper.github.io/betteraim/static/media/hand.92dbf90e.svg",
+    "static/media/pause.b8c311db.svg": "/gsdeveloper.github.io/betteraim/static/media/pause.b8c311db.svg",
+    "static/media/pauseicon.50447575.svg": "/gsdeveloper.github.io/betteraim/static/media/pauseicon.50447575.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c16c0c2.js",
-    "static/js/2.45300a60.chunk.js",
-    "static/css/main.9d238f3f.chunk.css",
-    "static/js/main.97d2922d.chunk.js"
+    "static/js/runtime-main.0398882a.js",
+    "static/js/2.78353174.chunk.js",
+    "static/css/main.1dd539eb.chunk.css",
+    "static/js/main.da66868d.chunk.js"
   ]
 }
