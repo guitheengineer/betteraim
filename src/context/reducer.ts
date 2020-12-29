@@ -27,7 +27,6 @@ export const initialState: State = {
 };
 
 export const gameReducer = (state: State, { type, payload }: Actions) => {
-  console.log(state, type, payload);
   switch (type) {
     case ActionTypes.setWindowData:
       // eslint-disable-next-line no-case-declarations
