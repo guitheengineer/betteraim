@@ -1,0 +1,19 @@
+.game-window {
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(43, 43, 43, 0.16);
+  box-shadow: -5px -5px 10px #313131, 5px 5px 10px #2c2c2c;
+  border-radius: 8px;
+
+  @keyframes opacityAnimation {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+}
+.fullscreen {
+  background: #2d2d2d;
+}

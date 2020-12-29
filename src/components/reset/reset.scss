@@ -1,0 +1,15 @@
+.Reset {
+  width: 156px;
+  height: 39px;
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 500 14px Red Hat Text;
+
+  color: #ffffff;
+  border-radius: 8px;
+  background: #ff2323;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.12);
+  border: 0;
+}

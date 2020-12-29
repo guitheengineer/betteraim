@@ -1,0 +1,27 @@
+.bar {
+  &__wrapper {
+    background-color: #3f3f3f;
+    border-radius: 8px;
+  }
+  &__goal {
+    display: flex;
+    background: linear-gradient(
+        135deg,
+        rgba(203, 203, 203, 0.28) 0%,
+        rgba(255, 255, 255, 0.28) 100%
+      ),
+      #2d2d2d;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -5px -3px 10px #343434, -5px -5px 10px #323232;
+    border-radius: 8px;
+    height: inherit;
+    &--fill {
+      display: block;
+      position: absolute;
+      background: #3f3f3f;
+      border-radius: 8px;
+      transition: width 0.5s;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+#root,
+.App {
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  box-sizing: border-box;
+  background: #2d2d2d;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+}
+
+li {
+  list-style-type: none;
+}

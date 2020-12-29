@@ -1,0 +1,85 @@
+@keyframes Scale {
+  from {
+    transform: scale(0.998);
+  }
+  to {
+    transform: scale(1.03);
+  }
+}
+
+.Home {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__bubbles-background {
+    width: 75%;
+    position: absolute;
+    animation: Scale 2s infinite alternate;
+    pointer-events: none;
+  }
+  &__play {
+    &:active {
+      box-shadow: inset -9px 10px 26px -17px rgba(0, 0, 0, 0.99);
+    }
+    animation: Scale 2s infinite alternate;
+
+    cursor: pointer;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.41),
+        rgba(255, 255, 255, 0.41)
+      ),
+      #ff0000;
+    background-blend-mode: soft-light, normal;
+    border: 3px solid rgba(43, 43, 43, 0.16);
+    box-shadow: -5px -5px 10px #313131, 5px 5px 10px #2c2c2c;
+    @media (max-width: 420px) {
+      width: 270px;
+      height: 270px;
+    }
+    width: 363px;
+    height: 363px;
+    max-width: 363px;
+    max-height: 363px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    font-family: Red Hat Text;
+    @media (max-width: 420px) {
+      font-size: 59px;
+    }
+    letter-spacing: 0.13em;
+    font-size: 77px;
+    text-transform: uppercase;
+    text-align: center;
+    pointer-events: none;
+    color: #ffffff;
+  }
+
+  &__copyright {
+    font: 500 13px Red Hat Text;
+    position: absolute;
+    bottom: 10px;
+    color: #e1e1e1;
+    animation: letterSpacing 2s infinite alternate forwards;
+  }
+  &__gsdeveloper {
+    color: #e1e1e1;
+    margin-left: 5px;
+    text-decoration: underline;
+  }
+  @keyframes letterSpacing {
+    from {
+      letter-spacing: 0.1px;
+    }
+    to {
+      letter-spacing: 0.2px;
+    }
+  }
+}

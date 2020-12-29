@@ -1,0 +1,36 @@
+.bar__options {
+  background-color: #3f3f3f;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  background: linear-gradient(
+      135deg,
+      rgba(203, 203, 203, 0.28) 0%,
+      rgba(255, 255, 255, 0.28) 100%
+    ),
+    #2d2d2d;
+  background-blend-mode: soft-light, normal;
+  box-shadow: -5px -3px 10px #323232, 5px 5px 10px #2b2b2b;
+  border-radius: 8px;
+  &-list {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  &-item {
+    height: 15px;
+    cursor: pointer;
+    :hover {
+      filter: brightness(160%);
+    }
+
+    &--one {
+      // position: relative;
+      top: 1px;
+    }
+  }
+}
