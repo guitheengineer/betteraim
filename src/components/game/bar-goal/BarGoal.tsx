@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Rnd, RndResizeCallback, RndDragCallback } from 'react-rnd';
 import { useGame } from 'context/Provider';
 import {
@@ -10,16 +10,21 @@ import {
 import './bar-goal.scss';
 
 const BarGoal = () => {
-  const { state, setIsGaming, setPhase, setWindowData } = useGame();
   const {
-    meta,
-    points,
-    isDragable,
-    windowDimensions,
-    phase,
-    barGoalDimensions,
-    resetWindows,
-  } = state;
+    state: {
+      meta,
+      points,
+      isDragable,
+      windowDimensions,
+      phase,
+      barGoalDimensions,
+      resetWindows,
+    },
+    setIsGaming,
+    setPhase,
+    setWindowData,
+  } = useGame();
+
   const percentage = (points * 100) / meta;
 
   useEffect(() => {

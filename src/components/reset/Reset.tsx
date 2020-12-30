@@ -1,11 +1,12 @@
 import { useGame } from 'context';
-import React from 'react';
+
 import './reset.scss';
 
 const Reset = () => {
-  const { state, setResetWindows } = useGame();
-
-  const { isDragable, isResizing } = state;
+  const {
+    state: { isDragable, isResizing },
+    setResetWindows,
+  } = useGame();
 
   const handleClick = () => {
     localStorage.clear();

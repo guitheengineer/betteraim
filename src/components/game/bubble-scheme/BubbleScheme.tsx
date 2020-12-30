@@ -1,25 +1,29 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useGame } from 'context/Provider';
 import { bubbleAdd } from 'utils';
 import './bubble-scheme.scss';
 import { nanoid } from 'nanoid';
 
 const BubblesScheme = () => {
-  const { setTimer, state, setClickQuantity, setBubbles } = useGame();
   const {
-    phase,
-    windowDimensions,
-    bubbleSize,
-    isResizing,
-    isPaused,
-    bubblesQuantity,
-    situation,
-    isWindowFetched,
-    isGaming,
-    isDragable,
-    bubbles,
-    isDraging,
-  } = state;
+    setTimer,
+    state: {
+      phase,
+      windowDimensions,
+      bubbleSize,
+      isResizing,
+      isPaused,
+      bubblesQuantity,
+      situation,
+      isWindowFetched,
+      isGaming,
+      isDragable,
+      isDraging,
+      bubbles,
+    },
+    setClickQuantity,
+    setBubbles,
+  } = useGame();
 
   useEffect(() => {
     if (situation === 'start' && isWindowFetched) {

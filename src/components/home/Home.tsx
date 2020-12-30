@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './home.scss';
 
 import BubblesBackground from 'assets/bubbles-background.png';

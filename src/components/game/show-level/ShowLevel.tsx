@@ -1,10 +1,11 @@
 import { useGame } from 'context';
-import React from 'react';
 import './show-level.scss';
 
 const ShowLevel = () => {
-  const { state } = useGame();
-  const { phase } = state;
+  const {
+    state: { phase },
+  } = useGame();
+
   return (
     <div className="show-level">
       <span className="show-level__level">Level:</span>

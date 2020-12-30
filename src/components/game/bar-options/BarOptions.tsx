@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Rnd, RndDragCallback, RndResizeCallback } from 'react-rnd';
 import hand from 'assets/graphics/icons/hand.svg';
 import pause from 'assets/graphics/icons/pause.svg';
@@ -10,14 +10,18 @@ import './bar-options.scss';
 import { useMediaQuery } from 'react-responsive';
 
 const BarOptions = () => {
-  const { state, setWindowData, setIsDragable, setIsPaused } = useGame();
   const {
-    windowDimensions,
-    isDragable,
-    barOptionsDimensions,
-    isPaused,
-    resetWindows,
-  } = state;
+    state: {
+      windowDimensions,
+      isDragable,
+      barOptionsDimensions,
+      isPaused,
+      resetWindows,
+    },
+    setWindowData,
+    setIsDragable,
+    setIsPaused,
+  } = useGame();
 
   useEffect(() => {
     const localBarPositioning = getLocalStorage({

@@ -1,4 +1,3 @@
-import React from 'react';
 import Refresh from 'assets/graphics/button-situation/refresh.png';
 import { useGame } from 'context/Provider';
 
@@ -8,8 +7,11 @@ type Props = {
 };
 
 const ButtonSituation = ({ label = 'Try again', color = '#FF2323' }: Props) => {
-  const { state, setIsGaming, setTimer } = useGame();
-  const { situation, phase } = state;
+  const {
+    state: { situation, phase },
+    setIsGaming,
+    setTimer,
+  } = useGame();
   const handleClick = () => {
     if (situation === 'passed') {
       setIsGaming('start');

@@ -1,5 +1,5 @@
 import { ActionTypes, State, Actions } from './types';
-import React, {
+import {
   useContext,
   createContext,
   ReactNode,

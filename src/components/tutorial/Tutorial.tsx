@@ -1,10 +1,12 @@
 import { useTour } from 'context/Provider';
-import React from 'react';
+
 import Tour from 'reactour';
 
 const Tutorial = () => {
-  const { setTour, state } = useTour();
-  const { isTourOpen } = state;
+  const {
+    setTour,
+    state: { isTourOpen },
+  } = useTour();
   return (
     <Tour
       accentColor="#ff2323"

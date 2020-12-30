@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { BubbleScheme } from '../bubble-scheme';
 import { Rnd, RndResizeCallback, RndDragCallback } from 'react-rnd';
 import FullScreen from 'react-full-screen';
@@ -14,9 +14,16 @@ import ShowLevel from '../show-level/ShowLevel';
 
 const GameWindow = () => {
   const {
+    state: {
+      windowDimensions,
+      isDragable,
+      situation,
+      isWindowFetched,
+      isFullScreen,
+      resetWindows,
+    },
     setClick,
     setBubbles,
-    state,
     setIsResizing,
     setIsWindowFetched,
     setIsFullScreen,
@@ -24,15 +31,6 @@ const GameWindow = () => {
     setIsDraging,
     setResetWindows,
   } = useGame();
-
-  const {
-    windowDimensions,
-    isDragable,
-    situation,
-    isWindowFetched,
-    isFullScreen,
-    resetWindows,
-  } = state;
 
   const isMin790 = useMediaQuery({ minWidth: 790 });
   const is790 = useMediaQuery({ maxWidth: 790 });
