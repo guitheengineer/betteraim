@@ -11,10 +11,8 @@ beforeEach(() => {
 test('if game works correctly', async () => {
   render(<App />);
 
-  // Click on the start button
   userEvent.click(screen.getByRole('button', { name: 'bubbles Play' }));
 
-  // Check if start button disappears
   await waitFor(() => {
     expect(
       screen.queryByRole('button', { name: 'bubbles Play' })
@@ -36,7 +34,7 @@ test('if game works correctly', async () => {
     const RecursiveTimeout = () => {
       bubblesInsertedQuantity++;
       // Defines how much time should have between one bubble and another
-      counter = counter * 1.5 - 1 * 100;
+      counter = counter * 1.5 - 100;
 
       // Timeout that calls recursive timeout, but with a increased time on 'counter'
       const lowTimeout = setTimeout(RecursiveTimeout, counter);
@@ -44,7 +42,6 @@ test('if game works correctly', async () => {
       // If bubbles quantity has reached, the timeout it's cleared and no bubbles is gonna be inserted
       if (bubblesInsertedQuantity === 5) {
         clearInterval(lowTimeout);
-        // Expect bubbles to be created
         expect(screen.getAllByTestId('bubble-item').length + 1).toBe(5);
       }
     };
@@ -54,7 +51,6 @@ test('if game works correctly', async () => {
     jest.runAllTimers();
   });
 
-  // test if pause is working.
   userEvent.click(screen.getByRole('button', { name: 'pause' }));
 
   expect(screen.getAllByTestId('bubble-item')[0]).toHaveStyle(
@@ -68,7 +64,7 @@ test('if game works correctly', async () => {
   );
 });
 
-test('if random position functions work correctly', () => {
+test('if the limits of generated random positions work correctly', () => {
   expect(
     Number(leftRandomPosition({ gameWidth: 744, bubbleSize: 40 }).slice(0, -2))
   ).toBeGreaterThanOrEqual(0);
