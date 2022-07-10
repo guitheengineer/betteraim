@@ -13,11 +13,7 @@ const ButtonSituation = ({ label = 'Try again', color = '#FF2323' }: Props) => {
     setTimer,
   } = useGame();
   const handleClick = () => {
-    if (situation === 'passed') {
-      setIsGaming('start');
-      setTimer(phase * 100 + 40000);
-    }
-    if (situation === 'rejected') {
+    if (situation === 'passed' || situation === 'rejected') {
       setIsGaming('start');
       setTimer(phase * 100 + 40000);
     }
