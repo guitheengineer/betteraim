@@ -89,19 +89,19 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Author
 
-<a href="gsdeveloper.github.io">
+<a href="github.com/guilhermefront">
  <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/49620737?s=460&u=affe940c45f9f14f3d456561e49e34d64e5b2078&v=4" width="100px;" alt=""/>
  <br />
 </a>
 <pre>Made with ❤️ by 
-<a href="gsdeveloper.github.io">Guilherme Samuel</a></pre>
+<a href="github.com/guilhermefront">Guilherme Samuel</a></pre>
 
 👋🏽 Feel free to talk with me!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Guilherme%20Samuel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-samuel-2aa7aa19b/)](https://www.linkedin.com/in/guilherme-samuel-2aa7aa19b/)
-[![Gmail Badge](https://img.shields.io/badge/-gsdevelopercontact@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tgmarinho@gmail.com)](mailto:gsdevelopercontact@gmail.com)
-[![Twitter Badge](https://img.shields.io/badge/-gsdeveloper-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/gsdeveloper)
+[![Gmail Badge](https://img.shields.io/badge/-devguilhermefront@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:devguilhermefront@gmail.com)](mailto:devguilhermefront@gmail.com)
+[![Twitter Badge](https://img.shields.io/badge/-guilhermefront-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/tgmarinho)](https://twitter.com/guilhermefront)
 
 ### License
 
-[MIT](https://github.com/gsdeveloper/betteraim/blob/master/README.md)
+[MIT](https://github.com/guilhermefront/betteraim/blob/master/README.md)
