@@ -38,12 +38,12 @@ const Home = () => {
       <span className="Home__copyright">
         Made with ❤ by
         <a
-          className="Home__gsdeveloper"
+          className="Home__guilhermefront"
           target="_blank"
           rel="noreferrer"
-          href="https://gsdeveloper.github.io"
+          href="https://github.com/guilhermefront"
         >
-          gsdeveloper
+          guilhermefront
         </a>
       </span>
     </>

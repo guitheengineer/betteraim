@@ -12,11 +12,11 @@
 <a href="https://www.figma.com/file/HRhyH6E7IXdYxuv12bXwdA/BetterAim?node-id=0%3A1">
 <img alt="figma badge" src="https://img.shields.io/badge/Figma%20prototype%20-Figma-%2304D361">
 </a>
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gsdeveloper/betteraim">
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/gsdeveloper/betteraim">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gsdeveloper/betteraim">
-<img alt="GitHub" src="https://img.shields.io/github/license/gsdeveloper/betteraim">
-<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/gsdeveloper/betteraim">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/guilhermefront/betteraim">
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/guilhermefront/betteraim">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/guilhermefront/betteraim">
+<img alt="GitHub" src="https://img.shields.io/github/license/guilhermefront/betteraim">
+<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/guilhermefront/betteraim">
 <img alt="React" src="https://img.shields.io/badge/React-JS-blue">
 <a href="https://betteraim.herokuapp.com/">
 <img alt="Heroku" src="https://img.shields.io/badge/Heroku-Deploy-blueviolet">
